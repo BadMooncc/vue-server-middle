@@ -8,7 +8,9 @@ const resolve  = file => path.resolve(__dirname, file);
 const app = express();
 const server = require('http').createServer(app);
 const $http = require('axios');
-const { production, develop }
+const { production, develop } = require('./src/config');
+
+
 // const _ = require('lodash');
 // const proxy = require('http-proxy-middleware');
 // const Config = require('config');
@@ -32,7 +34,7 @@ let url;
 if (!noDevelop) {
   //开发环境下，采用webpack热加载
   const setupDevServer = require('./build/dev-server');
-  origin = production.origin;
+  origin = develop.origin;
   setupDevServer(app, {
     templateUpdated: (template) => {
       tempHTML = template;
@@ -40,9 +42,10 @@ if (!noDevelop) {
   });
 } else {
   // 生产环境，读取/dist/index.html渲染
-  origin = develop.origin;
+  origin = production.origin;
   tempHTML = fs.readFileSync(resolve('./dist/index.html'), 'utf-8');
 }
+// console.log(origin);
 app.use('/dist', express.static('./dist'))
 // 配置静态资源路径
 app.use('/static', express.static('./dist/static'));
@@ -55,9 +58,9 @@ app.get('/abc', (req, res, next) => {
   res.send({ name: 'liao' });
 });
 app.use('/filter', (req, res, next) => {
-  console.log('=================[proxy start]===================');
-  console.log(`===========proxy: ${origin}${req.url}===========`);
-  console.log('=================[proxy end]===================');
+  console.log('=================[proxy]===================');
+  console.log(`===========${origin}${req.url}===========`);
+  console.log('=================[proxy]===================');
   let method = req.method.toLocaleLowerCase();
   let data;
   method === 'post' ? data = req.body : data = req.query;
@@ -66,7 +69,7 @@ app.use('/filter', (req, res, next) => {
     if (method === 'get') return $http.get(url, { params: data });
     else return $http.post(url, data);
   })().then((resp) => {
-    console.log(resp, '-----');
+    // console.log(resp, '-----');
     res.send({ name: '123' });
   }).catch((err) => {
     res.json(err);
