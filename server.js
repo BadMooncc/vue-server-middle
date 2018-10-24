@@ -1,18 +1,18 @@
 'use strict';
 
 const path = require('path');
-// const _ = require('lodash');
 const fs = require('fs');
-// const proxy = require('http-proxy-middleware');
-// const Config = require('config');
 const express = require('express');
-// const favicon = require('serve-favicon');
 const noDevelop = process.env.NODE_ENV !== 'develop';
 const resolve  = file => path.resolve(__dirname, file);
 const app = express();
 const server = require('http').createServer(app);
 const $http = require('axios');
 const { production, develop }
+// const _ = require('lodash');
+// const proxy = require('http-proxy-middleware');
+// const Config = require('config');
+// const favicon = require('serve-favicon');
 // const serve = (_path, cache) => express.static(resolve(_path), {
 //   maxAge: cache ? '30d' : 0,
 //   setHeaders: (res, path) => {
@@ -25,7 +25,6 @@ const { production, develop }
 //     }
 //   }
 // });
-
 let tempHTML;
 let origin;
 let url;
