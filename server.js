@@ -12,6 +12,7 @@ const resolve  = file => path.resolve(__dirname, file);
 const app = express();
 const server = require('http').createServer(app);
 const $http = require('axios');
+const { production, develop }
 // const serve = (_path, cache) => express.static(resolve(_path), {
 //   maxAge: cache ? '30d' : 0,
 //   setHeaders: (res, path) => {
@@ -26,10 +27,13 @@ const $http = require('axios');
 // });
 
 let tempHTML;
+let origin;
+let url;
 // 根据当前环境变量判断是否为生产环境
 if (!noDevelop) {
   //开发环境下，采用webpack热加载
   const setupDevServer = require('./build/dev-server');
+  origin = production.origin;
   setupDevServer(app, {
     templateUpdated: (template) => {
       tempHTML = template;
@@ -37,13 +41,13 @@ if (!noDevelop) {
   });
 } else {
   // 生产环境，读取/dist/index.html渲染
+  origin = develop.origin;
   tempHTML = fs.readFileSync(resolve('./dist/index.html'), 'utf-8');
 }
 app.use('/dist', express.static('./dist'))
 // 配置静态资源路径
 app.use('/static', express.static('./dist/static'));
 // app.use('/', serve('./dist', true));
-
 app.get('/', (req, res) => {
   res.send(tempHTML);
 });
@@ -52,11 +56,13 @@ app.get('/abc', (req, res, next) => {
   res.send({ name: 'liao' });
 });
 app.use('/filter', (req, res, next) => {
-  let url = req.url;
+  console.log('=================[proxy start]===================');
+  console.log(`===========proxy: ${origin}${req.url}===========`);
+  console.log('=================[proxy end]===================');
   let method = req.method.toLocaleLowerCase();
   let data;
   method === 'post' ? data = req.body : data = req.query;
-  url = 'http://localhost:8019/abc';
+  url = origin + req.url;
   (() => {
     if (method === 'get') return $http.get(url, { params: data });
     else return $http.post(url, data);
@@ -67,7 +73,8 @@ app.use('/filter', (req, res, next) => {
     res.json(err);
   });
 });
-// history模式下，防止刷新出现404，注： 需放置在最底部，避免出现中间层报错，原因未知，如果有ngnix做映射，则可以注释
+// history模式下，防止刷新出现404，
+// 注： 需放置在最底部，避免出现中间层报错，原因未知，如果有ngnix做映射，则可以注释
 app.use((req, res, next) => {
   res.send(tempHTML);
   next();
