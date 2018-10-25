@@ -8,11 +8,14 @@ const resolve  = file => path.resolve(__dirname, file);
 const app = express();
 const server = require('http').createServer(app);
 const $http = require('axios');
+const bodyParser = require('body-parser');
 const { production, develop } = require('./src/config');
+const proxy = require('http-proxy-middleware');
 
-
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
 // const _ = require('lodash');
-// const proxy = require('http-proxy-middleware');
+
 // const Config = require('config');
 // const favicon = require('serve-favicon');
 // const serve = (_path, cache) => express.static(resolve(_path), {
@@ -53,27 +56,35 @@ app.use('/static', express.static('./dist/static'));
 app.get('/', (req, res) => {
   res.send(tempHTML);
 });
-app.get('/abc', (req, res, next) => {
-  // console.log('123', req.query);
-  res.send({ name: 'liao' });
-});
+app.use('/abc', function(req, res){
+  console.log(111111);
+  res.json({name: '123'});
+  res.end();
+})
+// 请求转发
 app.use('/filter', (req, res, next) => {
-  console.log('=================[proxy]===================');
-  console.log(`===========${origin}${req.url}===========`);
-  console.log('=================[proxy]===================');
   let method = req.method.toLocaleLowerCase();
   let data;
   method === 'post' ? data = req.body : data = req.query;
   url = origin + req.url;
+  console.log('=================[proxy]===================');
+  console.log(`===========${origin}${req.url}===========`);
+  // console.log('query: ', req.query);
+  // console.log('body:', req.body);
+  console.log('=================[proxy]===================');
+  
   (() => {
-    if (method === 'get') return $http.get(url, { params: data });
+    if (method === 'get') return $http.get(url, data );
     else return $http.post(url, data);
   })().then((resp) => {
-    // console.log(resp, '-----');
-    res.send({ name: '123' });
+    // res.send(resp.data);
+    res.json({name: '123'});
+    res.end('1231312');
   }).catch((err) => {
-    res.json(err);
+    res.send(err.data);
+    res.end('11111111');
   });
+  // res.json({name: '123'});
 });
 // history模式下，防止刷新出现404，
 // 注： 需放置在最底部，避免出现中间层报错，原因未知，如果有ngnix做映射，则可以注释

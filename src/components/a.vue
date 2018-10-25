@@ -13,7 +13,7 @@ export default {
   },
   methods: {
     put() {
-      this.$http.get('/abc', { params: { name: 'tom' } });
+      this.$http.post('/abc', { params: { 'key': '12344' } });
     }
   }
 }
