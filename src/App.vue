@@ -15,7 +15,7 @@ export default {
       username: 'xiaow',
       password: '123345'
     }
-    getCityList(password).then((res) => {
+    getCityList(this, params).then((res) => {
       if (res.code) ;
       else return Promise.reject(res); 
     }).catch((err) => {
