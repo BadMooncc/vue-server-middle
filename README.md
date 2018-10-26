@@ -35,6 +35,7 @@
 │   │   └── getters.js                    getters
 │   │   └── state.js                      默认状态
 ├── .eslintrc.js                        eslint规则配置
+├── server.js                           中间层配置文件
 ├── package.json 
 ```
 
