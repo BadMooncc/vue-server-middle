@@ -3,7 +3,7 @@ import axios from 'axios';
 const axiosFunc = {
   install(Vue, opt) {
     const Http = axios.create({
-      baseURL:"/filter",
+      baseURL:"/api",
       timeout:20000
     });
     Vue.prototype.$http = Http;
