@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import axios from './utils/axios'
+import axios from './config/axios'
 
 Vue.use(axios);
 Vue.config.productionTip = false

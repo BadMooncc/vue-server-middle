@@ -9,7 +9,7 @@ const app = express();
 const server = require('http').createServer(app);
 const $http = require('axios');
 const bodyParser = require('body-parser');
-const { production, develop } = require('./src/config');
+const { production, develop } = require('./src/config/origin');
 const proxy = require('http-proxy-middleware');
 let tempHTML;
 let origin = !noDevelop ? develop.origin : production.origin;
