@@ -5,11 +5,12 @@ const fs = require('fs');
 const express = require('express');
 const noDevelop = process.env.NODE_ENV !== 'develop';
 const resolve  = file => path.resolve(__dirname, file);
-const server = require('http').createServer(app);
+
 const bodyParser = require('body-parser');
 const { production, develop } = require('./src/config/origin');
 const proxy = require('http-proxy-middleware');
 const app = express();
+const server = require('http').createServer(app);
 let tempHTML;
 let origin = !noDevelop ? develop.origin : production.origin;
 let url;
