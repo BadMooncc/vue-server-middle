@@ -1839,3 +1839,89 @@ Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
        [2] [1m(webpack)/buildin/global.js[39m[22m 509 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
        [3] [1m(webpack)/buildin/module.js[39m[22m 517 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
 webpack: Compiled successfully.
+
+> ssr@1.0.0 dev /Users/zhaodenghui/Desktop/vue-server-middle
+> NODE_ENV=develop node server.js
+
+{ app: '/Users/zhaodenghui/Desktop/vue-server-middle/src/main.js' }
+[HPM] Proxy created: /  ->  https://www.easy-mock.com
+[HPM] Proxy rewrite rule created: "^/api" ~> "/"
+targetOrigin ========> https://www.easy-mock.com
+listening on *: 8019
+ DONE  Compiled successfully in 2076ms21:27:17
+
+webpack built acc680cb552791a1e0ee in 2076ms
+Hash: [1macc680cb552791a1e0ee[39m[22m
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m2076[39m[22mms
+      [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+     [1m[33mapp.js[39m[22m     [1m[33m560 kB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  app
+[1m[32mmainfest.js[39m[22m    29.2 kB       [1m1[39m[22m  [1m[32m[emitted][39m[22m         mainfest
+ [1m[32mindex.html[39m[22m  388 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+   [7] [1m./node_modules/vue/dist/vue.esm.js[39m[22m 292 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [28] [1m./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/App.vue[39m[22m 428 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [49] [1mmulti webpack-hot-middleware/client ./src/main.js[39m[22m 40 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [50] [1m(webpack)-hot-middleware/client.js[39m[22m 7.77 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [51] [1m(webpack)/buildin/module.js[39m[22m 517 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [52] [1m./node_modules/strip-ansi/index.js[39m[22m 161 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [54] [1m(webpack)-hot-middleware/client-overlay.js[39m[22m 2.21 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [59] [1m(webpack)-hot-middleware/process-update.js[39m[22m 4.37 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [60] [1m./src/main.js[39m[22m 435 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [62] [1m./src/App.vue[39m[22m 1.59 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [100] [1m./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-7ba5bd90","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/App.vue[39m[22m 588 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [102] [1m./src/router/index.js[39m[22m 345 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [103] [1m./node_modules/vue-router/dist/vue-router.esm.js[39m[22m 65.6 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [108] [1m./src/config/axiosConfig.js[39m[22m 233 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [109] [1m./node_modules/axios/index.js[39m[22m 40 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+    + 114 hidden modules
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+         [1mAsset[39m[22m    [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32mindex.html[39m[22m  568 kB       [1m0[39m[22m  [1m[32m[39m[22m
+       [0] [1m./node_modules/html-webpack-plugin/lib/loader.js!./index.html[39m[22m 632 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+       [1] [1m./node_modules/lodash/lodash.js[39m[22m 540 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+       [2] [1m(webpack)/buildin/global.js[39m[22m 509 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+       [3] [1m(webpack)/buildin/module.js[39m[22m 517 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+webpack: Compiled successfully.
+
+> ssr@1.0.0 dev /Users/zhaodenghui/Desktop/vue-server-middle
+> NODE_ENV=develop node server.js
+
+{ app: '/Users/zhaodenghui/Desktop/vue-server-middle/src/main.js' }
+[HPM] Proxy created: /  ->  https://www.easy-mock.com
+[HPM] Proxy rewrite rule created: "^/api" ~> "/"
+targetOrigin ========> https://www.easy-mock.com
+listening on *: 8019
+ DONE  Compiled successfully in 3840ms21:29:35
+
+webpack built acc680cb552791a1e0ee in 3840ms
+Hash: [1macc680cb552791a1e0ee[39m[22m
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m3840[39m[22mms
+      [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+     [1m[33mapp.js[39m[22m     [1m[33m560 kB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  app
+[1m[32mmainfest.js[39m[22m    29.2 kB       [1m1[39m[22m  [1m[32m[emitted][39m[22m         mainfest
+ [1m[32mindex.html[39m[22m  388 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+   [7] [1m./node_modules/vue/dist/vue.esm.js[39m[22m 292 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [28] [1m./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/App.vue[39m[22m 428 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [49] [1mmulti webpack-hot-middleware/client ./src/main.js[39m[22m 40 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [50] [1m(webpack)-hot-middleware/client.js[39m[22m 7.77 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [51] [1m(webpack)/buildin/module.js[39m[22m 517 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [52] [1m./node_modules/strip-ansi/index.js[39m[22m 161 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [54] [1m(webpack)-hot-middleware/client-overlay.js[39m[22m 2.21 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [59] [1m(webpack)-hot-middleware/process-update.js[39m[22m 4.37 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [60] [1m./src/main.js[39m[22m 435 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [62] [1m./src/App.vue[39m[22m 1.59 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [100] [1m./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-7ba5bd90","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/App.vue[39m[22m 588 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [102] [1m./src/router/index.js[39m[22m 345 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [103] [1m./node_modules/vue-router/dist/vue-router.esm.js[39m[22m 65.6 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [108] [1m./src/config/axiosConfig.js[39m[22m 233 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [109] [1m./node_modules/axios/index.js[39m[22m 40 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+    + 114 hidden modules
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+         [1mAsset[39m[22m    [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32mindex.html[39m[22m  568 kB       [1m0[39m[22m  [1m[32m[39m[22m
+       [0] [1m./node_modules/html-webpack-plugin/lib/loader.js!./index.html[39m[22m 632 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+       [1] [1m./node_modules/lodash/lodash.js[39m[22m 540 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+       [2] [1m(webpack)/buildin/global.js[39m[22m 509 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+       [3] [1m(webpack)/buildin/module.js[39m[22m 517 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+webpack: Compiled successfully.
