@@ -2,7 +2,7 @@
   "apps" : [{
     "name" : "second-hand",
     "script" : "npm",
-    "args": "run dev",
+    "args": "run start",
     "exec_mode"  : "fork",
     "instances" : 1,
     "watch" : true,
