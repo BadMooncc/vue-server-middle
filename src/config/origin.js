@@ -7,5 +7,6 @@ const develop = {
   origin: 'https://www.easy-mock.com'
 }
 
+const port = 8019;
 // export { production, develop }
-module.exports = { production, develop };
+module.exports = { production, develop, port };
