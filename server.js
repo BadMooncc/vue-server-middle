@@ -33,6 +33,7 @@ if (!noDevelop) {
 app.use('/dist', express.static('./dist'))
 // 配置静态资源路径
 app.use('/static', express.static('./dist/static'));
+// 代理请求转发
 app.use('/api', proxy({
   target: origin,
   changeOrigin: true,

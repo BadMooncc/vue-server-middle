@@ -7,6 +7,9 @@
 ```
 ├── README.md                       项目介绍
 ├── index.html                      入口页面
+├── logs                            日志信息
+    ├── error-0.log                 错误日志信息采集文件          
+    ├── out-0.log                   普通日志信息采集文件
 ├── build                           构建脚本目录
 │   ├── webpack.base.conf.js            webpack基础配置,开发环境,生产环境都依赖   
 │   ├── webpack.dev.conf.js             webpack开发环境配置
@@ -65,3 +68,5 @@
 - 规范，尽量按照每个文件对应含义，存放文件。
 
 - 接口统一存放在/src/service目录下，下边有对应的实例代码
+
+- 错误日志信息均在logs/error.log中被采集

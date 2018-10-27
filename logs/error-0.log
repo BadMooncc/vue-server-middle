@@ -1,0 +1,1534 @@
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_07_885Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_09_179Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_10_503Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_11_928Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_13_757Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_15_032Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_16_391Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_17_542Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_18_918Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_20_275Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_21_639Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_23_296Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_24_647Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_26_082Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_27_472Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_28_928Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_30_339Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_31_648Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_32_989Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_34_381Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_35_889Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_37_214Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_38_606Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_39_897Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_41_321Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_42_682Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_44_101Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_45_385Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_46_739Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_48_071Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_49_459Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_50_838Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_52_212Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_53_507Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_55_052Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_56_556Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_57_866Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_04_59_334Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_05_00_717Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_05_02_025Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_05_03_398Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_05_04_797Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_05_06_178Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_05_07_466Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_05_08_838Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_05_10_228Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_05_11_614Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_05_19_091Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_05_20_473Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_05_21_869Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_05_23_368Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_05_24_708Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_05_26_080Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_05_27_516Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_05_28_908Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_05_30_271Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_05_31_608Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_05_33_053Z-debug.log
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/zhaodenghui/Desktop/vue-server-middle/server.js:5:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ssr@1.0.0 start: `NODE_ENV=production node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhaodenghui/.npm/_logs/2018-10-27T13_05_34_507Z-debug.log

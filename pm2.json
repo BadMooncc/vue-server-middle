@@ -1,0 +1,15 @@
+{
+  "apps" : [{
+    "name" : "vue-demo", 
+    "script" : "npm",
+    "args": "run dev",
+    "exec_mode"  : "fork",
+    "instances" : 1,
+    "watch" : true,
+    "env": {
+      "NODE_ENV": "production"
+    },
+    "out_file" : "./logs/out.log",
+    "error_file" : "./logs/error.log"
+  }]
+}
