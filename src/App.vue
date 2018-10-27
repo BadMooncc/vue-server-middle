@@ -12,13 +12,14 @@ import { getCityList } from './service/'
 export default {
   name: 'App',
   mounted() {
+    console.log(123);
     const params = {
       username: 'xiaow',
       password: '123345'
     }
     getCityList(this, params).then((res) => {
       if (res.code) ;
-      else return Promise.reject(res); 
+      else return Promise.reject(res);
     }).catch((err) => {
       // 统一处理错误信息
     });
