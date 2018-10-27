@@ -12,15 +12,16 @@ const proxy = require('http-proxy-middleware');
 const app = express();
 const server = require('http').createServer(app);
 let tempHTML;
-let origin = !noDevelop ? develop.origin : production.origin;
 let url;
+let staticUrl;
+let origin = !noDevelop ? develop.origin : production.origin;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-
 // 根据当前环境变量判断是否为生产环境
 if (!noDevelop) {
   //开发环境下，采用webpack热加载
   const setupDevServer = require('./build/dev-server');
+  staticUrl = './static';
   setupDevServer(app, {
     templateUpdated: (template) => {
       tempHTML = template;
@@ -28,11 +29,12 @@ if (!noDevelop) {
   });
 } else {
   // 生产环境，读取/dist/index.html渲染
+  staticUrl = './dist/static';
   tempHTML = fs.readFileSync(resolve('./dist/index.html'), 'utf-8');
 }
 app.use('/dist', express.static('./dist'))
 // 配置静态资源路径
-app.use('/static', express.static('./dist/static'));
+app.use('/static', express.static(staticUrl));
 // 代理请求转发
 app.use('/api', proxy({
   target: origin,
