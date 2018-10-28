@@ -29,14 +29,7 @@
 │   ├── service                         接口统一存放目录
 │   ├── pages                           vue页面目录
 │   ├── routes                          路由目录
-│   │   └── index                         路由主文件
-│   ├── store                           vuex存放目录
-│   │   └── index.js                      vuex汇总文件
-│   │   └── type.js                       类型汇总
-│   │   └── actions.js                    actions
-│   │   └── mutations.js                  mutations
-│   │   └── getters.js                    getters
-│   │   └── state.js                      默认状态
+        └── index                         路由主文件
 ├── .eslintrc.js                        eslint规则配置
 ├── server.js                           中间层配置文件
 ├── package.json 
@@ -52,6 +45,8 @@
 # npm run start 生产环境启动
 
 # npm run production 生产环境打包后启动
+
+# pm2 start pm2.json pm2启动
 
 ```
 
