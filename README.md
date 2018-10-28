@@ -11,6 +11,7 @@
     ├── error-0.log                 错误日志信息采集文件          
     ├── out-0.log                   普通日志信息采集文件
 ├── build                           构建脚本目录
+│   ├── check-versions.js            检查node和npm版本
 │   ├── webpack.base.conf.js            webpack基础配置,开发环境,生产环境都依赖   
 │   ├── webpack.dev.conf.js             webpack开发环境配置
 │   ├── webpack.prod.conf.js            webpack生产环境配置
