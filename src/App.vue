@@ -26,11 +26,5 @@ export default {
   }
 }
 </script>
-<style lang="scss">
-$gray: #ccc;
-#app {
-  background: $gray;
-}
-</style>
 
 
