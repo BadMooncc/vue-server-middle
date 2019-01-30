@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import { getCityList } from './service/'
+// import { getCityList } from './service/'
 
 export default {
   name: 'App',
@@ -17,12 +17,12 @@ export default {
       username: 'xiaow',
       password: '123345'
     }
-    getCityList(this, params).then((res) => {
-      if (res.code) ;
-      else return Promise.reject(res);
-    }).catch((err) => {
-      // 统一处理错误信息
-    });
+    // getCityList(this, params).then((res) => {
+    //   if (res.code) ;
+    //   else return Promise.reject(res);
+    // }).catch((err) => {
+    //   // 统一处理错误信息
+    // });
   }
 }
 </script>

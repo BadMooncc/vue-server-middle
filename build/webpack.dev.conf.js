@@ -4,10 +4,11 @@ const merge = require('webpack-merge');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin');
 const webpackBaseConfig = require('./webpack.base.conf');
+const vueSSRClient = require('vue-server-renderer/client-plugin')
 
 module.exports = merge(webpackBaseConfig, {
   entry: {
-    app: path.resolve(__dirname, '../src/main.js')
+    app: path.resolve(__dirname, '../src/entry-client.js')
   },
   output: {
     path: path.resolve(__dirname, '../dist/'),
@@ -16,6 +17,7 @@ module.exports = merge(webpackBaseConfig, {
     chunkFilename: '[name].[chunkhash].chunk.js'
   },
   plugins: [
+    new vueSSRClient(),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'develop')
     }),

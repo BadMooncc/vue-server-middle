@@ -13,7 +13,7 @@ export default {
   },
   methods: {
     put() {
-      this.$http.get('/mock/59ce2200c5c4302238f57388/example/computed2', { params: { 'key': '12344' } });
+      // this.$http.get('/mock/59ce2200c5c4302238f57388/example/computed2', { params: { 'key': '12344' } });
     }
   }
 }

@@ -9,15 +9,19 @@
     "dev": "cross-env NODE_ENV=develop node server.js",
     "start": "cross-env NODE_ENV=production node server.js",
     "production": "cross-env NODE_ENV=production node build/build.js && node server.js",
-    "build": "node build/build.js"
+    "build:client": "node build/build.js",
+    "build:server": "cross-env NODE_ENV=production webpack --config build/webpack.server.conf.js --progress --hide-modules",
+    "build": "rimraf dist && npm run build:client && npm run build:server"
   },
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "config": "^2.0.1",
     "http-proxy-middleware": "^0.19.0",
-    "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue": "^2.5.22",
+    "vue-router": "^3.0.1",
+    "vue-server-renderer": "^2.5.22",
+    "webpack-node-externals": "^1.7.2"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -52,7 +56,7 @@
     "url-loader": "^0.5.8",
     "vue-loader": "^13.3.0",
     "vue-style-loader": "^3.0.1",
-    "vue-template-compiler": "^2.5.2",
+    "vue-template-compiler": "^2.5.22",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
     "webpack-dev-server": "^2.9.1",
